@@ -1,0 +1,81 @@
+table{
+    background-color: rgb(226, 102, 102);
+    /*margin: 10px solid;*/
+
+    padding: 5px;
+    border: 2px solid black;
+}
+body{
+    background-color: #ddd;
+}
+td{
+    margin: 2px solid;
+    border: 2px ;
+    padding: 3px;
+    border-style:solid;
+    
+}
+.img{
+    background: url(tabela.jpeg);
+}
+.tabelapng{
+    background: url(tabelaedit.png);
+}
+
+th{
+    margin: 2px solid;
+    border: 2px ;
+    padding: 3px;
+    border-style:solid;
+    background-color: red;
+    
+}
+
+ol{
+    list-style-position: inside;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+/*#back{
+    background: url(galao.jpg) center/cover no-repeat ;
+    
+}
+*/
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.links:hover{
+    /*background-color: black;*/
+   color: white;
+}
+
+.links:active{
+    background-color: blue;
+    color: red;
+}
+
+.links:visited{
+    text-decoration: none;
+}
+
+.poscentralized{
+
+    -webkit-display: flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    }
+
+    .logogalo{
+        padding-bottom: 10px;
+    }
